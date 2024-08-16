@@ -1,0 +1,29 @@
+All Rights Reserved
+
+Copyright (c) 2024 void netRun() Dawid Jedynak
+
+This project and all associated files, including, but not limited to, any text, source code, graphic files, configuration files, and others, are copyrighted. All rights are reserved.
+
+Unauthorized copying, modification, distribution, or use of this software or any part of it, in whole or in part, is strictly prohibited without prior written permission from the copyright owner.
+
+Any individual who has gained access to this project without explicit permission from the author is required to immediately delete all copies and cease any use of this software.
+
+Contact for copyright inquiries: contact@voidnetrun.it
+
+2024
+
+---
+
+Wszelkie prawa zastrzeżone
+
+Copyright (c) 2024 void netRun() Dawid Jedynak
+
+Niniejszy projekt oraz wszelkie związane z nim pliki, w tym, bez ograniczeń, wszelkie teksty, kody źródłowe, pliki graficzne, pliki konfiguracyjne i inne, są objęte prawami autorskimi. Wszelkie prawa są zastrzeżone.
+
+Zabrania się kopiowania, modyfikowania, rozpowszechniania oraz wykorzystywania tego oprogramowania lub jakiejkolwiek jego części, w całości lub w części, bez uprzedniej pisemnej zgody właściciela praw autorskich.
+
+Wszelkie osoby, które uzyskały dostęp do tego projektu bez wyraźnej zgody autora, zobowiązane są do niezwłocznego usunięcia wszystkich kopii oraz zaprzestania wszelkiego użytkowania tego oprogramowania.
+
+Kontakt do właściciela praw autorskich: contact@voidnetrun.it
+
+2024
