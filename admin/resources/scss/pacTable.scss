@@ -1,0 +1,44 @@
+.pac_wrap{
+    &__tableContainer{
+        width: 100%;
+        overflow-x: auto;
+    }
+    #pac_results{
+        table{
+            width: max-content;
+            .pac{
+                &__id{
+                    width: 40px;
+                }
+                &__img{
+                    width: 200px;
+                    img{
+                        display: flex;
+                        width: 100%;
+                    }
+                }
+                &__title{
+                    width: 200px;
+                }
+                &__author{
+                    width: 100px;
+                }
+                &__categories,
+                &__tags{
+                    width: 100px;
+                }
+                &__content{
+                    display: flex;
+                    flex-direction: column;
+                    width: 800px;
+                    max-height: 140px;
+                    overflow-y: auto;
+                }
+                &__acfField{
+                    width: 100px;
+                }
+
+            }
+        }
+    }
+}

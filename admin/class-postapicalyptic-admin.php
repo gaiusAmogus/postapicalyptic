@@ -115,8 +115,37 @@ class postapicalyptic_Admin {
 	}
 
 	public function render_plugin_admin_page() {
-		echo '<div class="wrap">
+		echo '<div class="wrap pac_wrap" id="pac_wrap">
 			<h2>Postapicalyptic</h2>
+			<div id="pac_results">
+				<h3>Wyniki importu API:</h3>
+				<div class="pac_wrap__tableContainer">
+					<table class="wp-list-table widefat striped">
+						<thead>
+							<tr>
+								<th>API ID</th>
+								<th>Miniaturka</th>
+								<th>Tytuł</th>
+								<th>Autor</th>
+								<th>Kategorie</th>
+								<th>Tagi</th>
+								<th>pole ACF 1</th>
+								<th>pole ACF 2	</th>
+								<th>Content</th>
+							</tr>
+						</thead>
+						<tbody>
+							<!-- Tabela zostanie wyświetlona tutaj -->
+						</tbody>
+					</table>
+				</div>
+				<h3>Aktualizacja wpisów</h3>
+				<div class="actionBar">
+					<div id="updatePosts" class="button button--primary">Aktaulizuj</div>
+					<div class="actionBar__info">
+					</div>
+				</div>
+			</div>
 		</div>';
 	}
 }
