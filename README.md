@@ -1,2 +1,2 @@
 # postapicalyptic
- WordPress plugin for creating posts based on API
+WordPress plugin for creating posts based on API

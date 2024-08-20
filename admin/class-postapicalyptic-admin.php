@@ -115,6 +115,8 @@ class postapicalyptic_Admin {
 	}
 
 	public function render_plugin_admin_page() {
+		echo '<div id="wpApiNonce" data-nonce="'. wp_create_nonce('wp_rest'). '"></div>';
+
 		echo '<div class="wrap pac_wrap" id="pac_wrap">
 			<h2>Postapicalyptic</h2>
 			<div id="pac_results">
@@ -126,7 +128,6 @@ class postapicalyptic_Admin {
 								<th>API ID</th>
 								<th>Miniaturka</th>
 								<th>Tytuł</th>
-								<th>Autor</th>
 								<th>Kategorie</th>
 								<th>Tagi</th>
 								<th>pole ACF 1</th>
@@ -141,8 +142,14 @@ class postapicalyptic_Admin {
 				</div>
 				<h3>Aktualizacja wpisów</h3>
 				<div class="actionBar">
-					<div id="updatePosts" class="button button--primary">Aktaulizuj</div>
+					<div class="actionBar__btns">
+						<div id="updatePosts" class="actionBar__btns__button button">Aktaulizuj</div>
+						<div class="actionBar__btns__loader">
+							<div class="actionBar__btns__loader__spinner"></div>
+						</div>
+					</div>
 					<div class="actionBar__info">
+						<p>Statusy aktualizacji wpisów pojawią się tutaj.</p>
 					</div>
 				</div>
 			</div>

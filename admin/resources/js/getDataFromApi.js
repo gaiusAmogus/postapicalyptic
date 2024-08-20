@@ -22,7 +22,7 @@ export function getDataFromApi() {
         return processedData;
     }
 
-    function renderDatesTable(data) {
+    function renderTable(data) {
         var tableBody = document.querySelector('#pac_results tbody');
         var tableRows = '';
 
@@ -35,7 +35,6 @@ export function getDataFromApi() {
                     tableRows += '<td class="pac__img"></td>';
                 }
                 tableRows += '<td class="pac__title"><h4>' + (item.title ? item.title.trim() : '') + '</h4></td>';
-                tableRows += '<td class="pac__author">' + (item.author ? item.author : '') + '</td>';
                 tableRows += '<td class="pac__categories">' + (item.categories ? item.categories : '') + '</td>';
                 tableRows += '<td class="pac__tags">' + (item.tags ? item.tags : '') + '</td>';
                 tableRows += '<td class="pac__acfField pac__acfField_1">' + (item.acfField1 ? item.acfField1 : '') + '</td>';
@@ -55,7 +54,7 @@ export function getDataFromApi() {
         xhr.onload = function() {
             if (xhr.status >= 200 && xhr.status < 300) {
                 var processedData = processData(xhr.response);
-                renderDatesTable(processedData);
+                renderTable(processedData);
             } else {
                 var tableBody = document.querySelector('#pac_results tbody');
                 tableBody.innerHTML += '<tr><td colspan="9">Wystąpił błąd podczas pobierania danych z API.</td></tr>';
